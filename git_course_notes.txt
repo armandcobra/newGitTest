@@ -9,3 +9,13 @@ git help <command> // example: git help config
 git config --global user.name "Amine MEKDAD"
 git config --global user.email amekdad@cisco.com
 git config --global color.ui true
+
+//pick a working file system
+// create local git repo
+git init
+git status // changes since last commit
+git add "README.txt" // stage the file
+git commit -m "create a README" //take a snapshot of the stage annd add it the commit time line "MASTER" branch
+git add --all //ad all
+// check history
+git log

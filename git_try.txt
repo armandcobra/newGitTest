@@ -1,3 +1,15 @@
 git init
 git status /// will return "newfile.txt" untracked if any
 git add "newfile.txt" // the new file is "staged", not commited yet
+git status
+// still we need to run the followig commit comand
+git commit -m "first commit"!!
+//add new "txt" file
+git add '*.txt'
+// to trace all git commits
+git log
+//once new repo created in GitHub server at "http://github.com/try-git/try_git.git" we can add a remote repository
+git remote add <folder> <url>
+git remote add origin http://github.com/try-git/try_git.git
+git push -u <remote folder> <default local branch name>
+git push -u origin master
