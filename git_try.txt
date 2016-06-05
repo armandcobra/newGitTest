@@ -1,0 +1,3 @@
+git init
+git status /// will return "newfile.txt" untracked if any
+git add "newfile.txt" // the new file is "staged", not commited yet
